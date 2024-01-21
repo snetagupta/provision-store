@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h1>Folder Structure:</h1>
+    <div className="m-2 p-4">
+      <h2>Folder Structure:</h2>
       <p>
         <ul>
           <li>src</li>
@@ -27,7 +27,7 @@ const About = () => {
       </p>
 
       <br></br>
-      <h1>Challenges Faced:</h1>
+      <h2>Challenges Faced:</h2>
       <p>
         Implementing the login API posed challenges in formatting the payload
         with email, password, and grant_type. Overcoming these challenges
@@ -36,8 +36,8 @@ const About = () => {
         enhancing overall understanding and problem-solving skills.
       </p>
       <br></br>
-      <h1>Project Execution Steps:</h1>
-      <p>Clone the repository using :- git clone [https://github.com/snetagupta/promilo.git]</p>
+      <h2>Project Execution Steps:</h2>
+      <p>Clone the repository using :- git clone [https://github.com/snetagupta/provision-store.git]</p>
       <p>Install dependencies :- npm install</p>
       <p>Run the project :- npm run dev</p>
     </div>
